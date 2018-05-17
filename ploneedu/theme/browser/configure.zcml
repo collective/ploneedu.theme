@@ -56,12 +56,14 @@
       layer=".interfaces.IThemeSpecific"
       />
 
-  <!-- Path Bar (Breadcrumbs)  -->   
+  <!-- Path Bar (Breadcrumbs) -->
+  <!--
   <browser:resourceDirectory
       name="ploneedu.theme.templates"
       directory="templates"
       layer=".interfaces.IThemeSpecific"
       />
+  -->
   
   <browser:viewlet
         name="plone.path_bar"
