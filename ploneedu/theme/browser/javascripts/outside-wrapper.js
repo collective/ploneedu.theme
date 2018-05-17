@@ -8,12 +8,12 @@ $(document).ready(function() {
         }
         $(window).resize(function() {
             if ($(window).width() <= 618) { 
-		           $('#plonelinks').remove();
-		    }
-		    if ($(window).width() > 618) {
-		        if ( $("#plonelinks").length == 0 ) {
-		              add_plone_links();
-		        }
-		    }
-		 });
+                   $('#plonelinks').remove();
+            }
+            if ($(window).width() > 618) {
+                if ( $("#plonelinks").length == 0 ) {
+                      add_plone_links();
+                }
+            }
+         });
 });

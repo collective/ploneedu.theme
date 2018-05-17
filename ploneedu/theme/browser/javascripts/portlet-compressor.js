@@ -30,13 +30,12 @@ $(document).ready(function() {
             if ( $('button[class^="portlet-button"]').length == 0 ) {
                 below_618_px();
             }
-	    }
-	    if ($(window).width() > 618) {
-	        $('dd.portletItem').removeClass('hide-portlet-content');
-	        $('button[class^="portlet-button"]').remove();
-	    }
+        }
+        if ($(window).width() > 618) {
+            $('dd.portletItem').removeClass('hide-portlet-content');
+            $('button[class^="portlet-button"]').remove();
+        }
 
-	});
-	
+    });
+
 });
-
