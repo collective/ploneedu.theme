@@ -5,15 +5,15 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="PloneEDU Theme"
+      title="ploneedu.theme"
       directory="profiles/default"
-      description='Extension profile for the "PloneEDU Theme" Plone theme.'
+      description='Installs the "ploneedu.theme" Plone theme'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
   <genericsetup:importStep
       name="ploneedu.theme.various"
-      title="PloneEDU Theme: miscellaneous import steps"
+      title="ploneedu.theme: miscellaneous import steps"
       description="Various import steps that are not handled by GS import/export handlers."
       handler="ploneedu.theme.setuphandlers.setupVarious">
     <depends name="skins"/>
