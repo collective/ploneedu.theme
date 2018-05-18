@@ -1,5 +1,5 @@
 function add_plone_links(){
-    $("body").prepend('<div id="plonelinks"><a href="http://plone.org">Plone.org</a> | <a href="http://plone.com">Plone.com</a> | <a href="http://plone.org/products"> Download </a> | <a href="#" >What is Plone?</a> | <a href="#">Plone Support</a>  <img src="++resource++ploneedu.theme.images/ploneicon.png" alt="Plone Icon" /></div>');
+    $("body").prepend('<div id="plonelinks"><a href="http://plone.org">Plone.org</a> | <a href="https://plone.com">Plone.com</a> | <a href="https://plone.org/download"> Download </a> | <a href="https://docs.plone.org/intro/index.html#what-is-plone" >What is Plone?</a> | <a href="https://community.plone.org/">Plone Support</a>  <img src="++resource++ploneedu.theme.images/ploneicon.png" alt="Plone Icon" /></div>');
 }
 
 $(document).ready(function() {
