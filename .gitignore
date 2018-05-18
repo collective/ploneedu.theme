@@ -4,19 +4,36 @@
 *.so
 
 # Packages
+*~
+*.tmp*
 *.egg
+*.EGG
 *.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
+*.EGG-INFO
+*.kpf
+*.swp
+*.wpr
+.*.cfg
 .installed.cfg
-lib
+.eggs/
+.hg/
+.bzr/
+.svn/
+pip-selfcheck.json
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+fake-eggs/
+include/
+lib/
 lib64
+local/
+parts/
+sdist
+var/
 
 # Installer logs
 pip-log.txt
@@ -33,3 +50,6 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# OSX
+.DS_Store
