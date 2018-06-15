@@ -6,5 +6,6 @@
    tal:attributes="href view/navigation_root_url;"
    i18n:domain="plone"
    i18n:attributes="title">
-    <img src="ploneEDUlogo.png" alt="Plone Edu Logo" /></a>
+    <img tal:attributes="src string:${context/@@plone_portal_state/portal_url}/ploneEDUlogo.png" alt="Plone Edu Logo" />
+
 </div>

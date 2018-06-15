@@ -4,6 +4,8 @@ Changelog
 1.0 (2013-07-15)
 ----------------
 
+- Fixed URL for image ploneEDUlogo.png file from logo viewlet [macagua]
+
 - Fixed URL for image ploneicon.png file from plone links section [macagua]
 
 - Added more improvements about README file [macagua]
