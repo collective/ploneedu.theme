@@ -4,5 +4,13 @@ Changelog
 1.0 (2013-07-15)
 ----------------
 
+- Added more improvements about README file [macagua]
+
+- Added more strings classifiers items for this package [macagua]
+
+- attribution to Rob Porter, Mark Corum. [T. Kim Nguyen]
+
+- Initial commit [T. Kim Nguyen]
+
 - Initial release [Rob Porter]
 
